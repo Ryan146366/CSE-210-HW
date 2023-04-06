@@ -58,7 +58,7 @@ public class Menu
             
             while(startTime < futureTime)
             {
-                activity.UserItems();
+                activity.CountUserItems();
                 startTime = DateTime.Now;
             }
             activity.DisplayNumItems();
